@@ -1,0 +1,11 @@
+.DS_Store
+.thumbs.db
+node_modules/
+dist/
+release/
+npm-debug.log*
+cordova/platforms
+cordova/plugins
+codorva/
+.idea/
+*.sublime-*

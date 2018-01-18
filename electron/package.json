@@ -1,0 +1,34 @@
+{
+  "name": "photonic",
+  "productName": "Photonic",
+  "version": "0.0.1",
+  "author": "Colin Luo <mail@luozhihua.com>",
+  "description": "A photo manager to edit exif/gps/time...",
+  "main": "electron.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electron src/main.js",
+    "clean": "node build/script.clean.js",
+    "build": "node build/script.build.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "colors": "^1.1.2",
+    "cross-env": "^5.1.3",
+    "devtron": "^1.4.0",
+    "electron": "^1.8.2-beta.3",
+    "electron-devtools-installer": "^2.2.3",
+    "electron-packager": "^10.1.1",
+    "eslint": "^3.16.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.6.2",
+    "json-loader": "^0.5.4",
+    "node-loader": "^0.6.0",
+    "shelljs": "^0.8.0",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^3.0.0"
+  },
+  "dependencies": {
+    "exiftool-vendored": "^4.14.1"
+  }
+}
